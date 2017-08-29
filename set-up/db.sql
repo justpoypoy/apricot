@@ -577,7 +577,7 @@ CREATE TABLE `user` (
   `name_user` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
   `nama_lengkap` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL,
   `email` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `password_user` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `password_user` varchar(60) COLLATE utf8mb4_unicode_ci NOT NULL,
   `level_user` int(11) NOT NULL,
   `avatar_user` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL,
   `status_user` enum('Y','N') COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'Y',
